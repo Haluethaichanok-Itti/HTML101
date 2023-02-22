@@ -1,5 +1,6 @@
 p {
     font-style: italic;
+ 
 }
 div, p, span{ font-size: 12pt;}
 
@@ -7,4 +8,5 @@ div, p, span{ font-size: 12pt;}
 span{
     background-color: wheat;
     font-weight: bold;
+
 }
