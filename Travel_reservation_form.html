@@ -5,15 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel reservation form</title>
+    <style>
+        *{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            line-height: 20px;
+        
+            margin-top: auto;
+            box-sizing: border-box;
+        }
+        header {
+            box-sizing: border-box;
+            margin-top: 5%;
+            padding-top: 5%;
+            text-align: center;
+          margin-top: auto; 
+            color: white;
+        }
+        body
+        {
+            background-color: plum;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        main{
+            box-sizing: border-box;
+            margin-top: 5%;
+            margin-left: 30%;
+            margin-right: 30%;
+            padding: 5%;
+            border: 1px solid white;
+            background-color:white;
+            color: black;
+            border-radius: 3%;
+            
+        }
+button{
+    box-sizing: border-box;
+            margin-left: 45%;
+            margin-right: 35%;
+}
+    </style>
 </head>
 <body>
     <header><h1>Travel reservation form</h1></header>
-    <h3>* denotes mandotory</h3>
     <main>
+        <h3>* denotes mandotory</h3>
         <section class="">
             <form>
                 <div class="name_title">
-                <label><b>Name Title*</b></label><br>                <input type="radio" value="ms" name="title" >
+                <label>Name Title*</label><br>                
+                <input type="radio" value="ms" name="title" >
                 <label for="ms" >Ms.</label><br>
                 <input type="radio" value="mrs" name="title">
                 <label for="mrs">Mrs.</label><br>
@@ -21,9 +62,9 @@
                 <label for="mr">Mr.</label>
             </div>
             <label>Name*:</label>
-            <input type="text" name="first_name" placeholder="" required> <br>
+            <input type="text" name="first_name" placeholder="please type your name" required> <br>
             <label>Last Name*:</label>
-            <input type="text" name="last_name" placeholder=""required><br>
+            <input type="text" name="last_name" placeholder="please type your last name" required><br>
             <label>Age*:</label>
             <input type="number" name="age" placeholder="" required><br>
             <label>Arrival date*:</label>
@@ -39,17 +80,18 @@
                 <option value="japan">Japan</option>
                 <option value="usa">USA</option>
               </select><br>
-                <label><b>What would you want to avail?*</b></label><br>                
+                <label>What would you want to avail?*</label><br>                
                 <input type="checkbox" value="boarding"  >
                 <label for="boarding" >Boarding</label><br>
                 <input type="checkbox" value="fooding">
                 <label for="fooding">Fooding</label><br>
                 <input type="checkbox" value="sight_seeing">
                 <label for="sight_seeing">Sight seeing</label>
+                <button type="submit" class="button">Submit</button>
         </form>
         </section>
     </main>
-    <button type="submit" class="button">Submit</button>
+   
 
 </section>
 </body>
