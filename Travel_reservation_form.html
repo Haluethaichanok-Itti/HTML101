@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel reservation form</title>
+</head>
+<body>
+    <header><h1>Travel reservation form</h1></header>
+    <h3>* denotes mandotory</h3>
+    <main>
+        <section class="">
+            <form>
+                <div class="name_title">
+                <label><b>Name Title*</b></label><br>                <input type="radio" value="ms" name="title" >
+                <label for="ms" >Ms.</label><br>
+                <input type="radio" value="mrs" name="title">
+                <label for="mrs">Mrs.</label><br>
+                <input type="radio" value="mr" name="title">
+                <label for="mr">Mr.</label>
+            </div>
+            <label>Name*:</label>
+            <input type="text" name="first_name" placeholder="" required> <br>
+            <label>Last Name*:</label>
+            <input type="text" name="last_name" placeholder=""required><br>
+            <label>Age*:</label>
+            <input type="number" name="age" placeholder="" required><br>
+            <label>Arrival date*:</label>
+            <input type="date" name="birthday"><br>
+            <label>Address*:</label>
+            <textarea></textarea><br>
+            <label>Phone Number*:</label>
+            <input type="tel" name="phone_number" placeholder="+66xx-xxxxxxx"><br>
+            <label>Select Tour Package*:</label>
+            <select name="package" id="package">
+                <option value="thailand">Thailand</option>
+                <option value="korea">Korea</option>
+                <option value="japan">Japan</option>
+                <option value="usa">USA</option>
+              </select><br>
+                <label><b>What would you want to avail?*</b></label><br>                
+                <input type="checkbox" value="boarding"  >
+                <label for="boarding" >Boarding</label><br>
+                <input type="checkbox" value="mrs" >
+                <label for="fooding">Fooding</label><br>
+                <input type="checkbox" value="mr" name="title">
+                <label for="sight_seeing">Sight seeing</label>
+        </form>
+        </section>
+    </main>
+    <button type="submit" class="button">Submit</button>
+
+</section>
+</body>
+</html>
